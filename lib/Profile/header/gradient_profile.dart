@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 
 class GradientProfile extends StatelessWidget {
 
-  String title = "";
-
-  GradientProfile(this.title);
 
   @override
   Widget build(BuildContext context) {

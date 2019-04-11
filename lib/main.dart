@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'platzi_trips.dart';
-import 'platzi_cupertino.dart';
+import 'package:paltzi_trips/Utils/platzi_cupertino.dart';
 
 void main() => runApp(MyApp());
 

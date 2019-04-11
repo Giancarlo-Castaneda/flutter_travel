@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'gradient_profile.dart';
+import 'package:paltzi_trips/Profile/header/gradient_profile.dart';
+import 'package:paltzi_trips/Profile/places/favorite_places_list.dart';
+
+import 'package:paltzi_trips/Profile/header/profile_header.dart';
 
 class ProfileTrips extends StatelessWidget {
 
@@ -8,30 +11,15 @@ class ProfileTrips extends StatelessWidget {
 
     return Stack(
       children: <Widget>[
-        GradientProfile("Profile"),
-        Container(
-          padding: EdgeInsets.only(top: 50.0),
-          child: Row(
 
+        GradientProfile(),
+        ListView(
 
-            children: <Widget>[
-              Text(
-                "Profile",
-                style: TextStyle(
-                    color: Colors.white,
-                    fontFamily: "Lato",
-                    fontSize: 30.0,
-                    fontWeight: FontWeight.bold
-                ),
-              ),
-              IconButton(
-                icon: Icon(Icons.settings),
-                onPressed: () {},)
-            ],
-          ),
-        ),
-
-
+          children: <Widget>[
+            ProfileHeader(),
+            FavoritePlacesList()
+          ],
+        )
       ],
     );
   }

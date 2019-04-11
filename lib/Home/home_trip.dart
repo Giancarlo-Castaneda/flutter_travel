@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'description.dart';
-import 'review_list.dart';
-import 'header_appbar.dart';
+import 'package:paltzi_trips/Home/description.dart';
+import 'package:paltzi_trips/Home/review_list.dart';
+import 'package:paltzi_trips/Home/header_appbar.dart';
 
 class HomeTrips extends StatelessWidget {
 

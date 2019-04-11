@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'review.dart';
+import 'package:paltzi_trips/Home/review.dart';
 
 class ReviewList extends StatelessWidget {
   @override

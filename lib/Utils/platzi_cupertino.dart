@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'home_trip.dart';
+import 'package:paltzi_trips/Home/home_trip.dart';
 import 'package:paltzi_trips/Profile/profile_trips.dart';
-import 'search_trips.dart';
+import 'package:paltzi_trips/Search/search_trips.dart';
 
 class PlatziCupertino extends StatelessWidget {
 
