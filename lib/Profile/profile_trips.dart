@@ -8,7 +8,30 @@ class ProfileTrips extends StatelessWidget {
 
     return Stack(
       children: <Widget>[
-        GradientProfile("Profile")
+        GradientProfile("Profile"),
+        Container(
+          padding: EdgeInsets.only(top: 50.0),
+          child: Row(
+
+
+            children: <Widget>[
+              Text(
+                "Profile",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: "Lato",
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold
+                ),
+              ),
+              IconButton(
+                icon: Icon(Icons.settings),
+                onPressed: () {},)
+            ],
+          ),
+        ),
+
+
       ],
     );
   }
